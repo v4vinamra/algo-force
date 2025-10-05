@@ -1,0 +1,124 @@
+.contest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 24px;
+    padding: 24px;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+ .contest-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+  
+   .contest-card-ui {
+    width: 100%;
+    max-width: 400px;
+    background-color:#3f3f46;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+
+  .contest-card-ui:hover .contest-title {
+    color: #de621b;
+  } 
+
+  
+.card-header {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+  }
+  
+  .platform-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  
+  .contest-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 5px 0 10px 0;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+    color: white;
+  }
+
+ 
+  
+  .time-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px; 
+  }
+  .time-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: white;
+
+  }
+  
+  .contest-actions-ui {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .reminder-ui {
+    padding: 6px 10px;
+    background: #f3f4f6;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+
+  }
+
+
+  .button-ui {
+    padding: 6px 12px;
+    background-color:rgb(81, 80, 80);
+    color: #ffffff; /* dark gray for better contrast */
+    border: none;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none; /* ensures anchor links styled as buttons look clean */
+  }
+  
+  /* Hover state */
+  .button-ui:hover {
+    background-color: #6d6d6d;
+    
+  }
+  
+ 
+  
