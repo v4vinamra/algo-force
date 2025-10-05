@@ -2,7 +2,6 @@ package io.github.v4vinamra.algoforce.scheduler;
 
 import io.github.v4vinamra.algoforce.entities.Root;
 import io.github.v4vinamra.algoforce.service.ContestFetchingService;
-import io.github.v4vinamra.algoforce.service.RedisService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -63,5 +63,4 @@ public class PublicController {
         contestScheduler.fetchContest();
     }
 
-
 }
