@@ -17,7 +17,6 @@ public class ContestFetchingScheduler {
 
     private final RestTemplate restTemplate;
     private final ContestFetchingService contestFetchingService;
-    private final RedisService redisService;
 
     @Value("${Clist.api_key}")
     private String apiKey;

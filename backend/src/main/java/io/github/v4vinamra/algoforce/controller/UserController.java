@@ -40,7 +40,7 @@ public class UserController {
     public List<Contest> fetchContest(){
         List<Contest> contestList = redisService.getUpcomingContests();
 
-        if (!contestList.isEmpty()) {
+        if (contestList != null && !contestList.isEmpty()) {
             return contestList;
         }
 
