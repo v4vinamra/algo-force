@@ -5,7 +5,7 @@ services:
     container_name: algoforce-app
     restart: always
     env_file:
-      - .env
+      - env
     ports:
       - "8080:8080"
     depends_on:
@@ -17,7 +17,7 @@ services:
     container_name: algoforce-db
     restart: always
     env_file:
-      - .env
+      - env
     ports:
       - "5432:5432"
 
