@@ -5,6 +5,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Data
+
 public class ContestDto {
 
     private Long id;
